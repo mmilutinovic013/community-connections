@@ -1,0 +1,63 @@
+---
+layout: default
+title: The Program
+---
+<!-- Learn about this code on MDN: https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-mode -->
+<div class="program-header">
+    <!-- TOP BAR -->
+    <div class="row">
+        <div class="top-bar">
+            <div class="top-bar-title">
+                <!-- <a class="shield" href="http://psu.edu"><img alt="The Penn State University Sheild" src="../assets/img/psu_arch_shield_blue.svg"/></a>
+          <a class="masthead" href="/"><img alt="The College of Arts and Architecture Masthead" src="../assets/img/psu_arch_masthead_blue.svg"/></a> -->
+                <a class="masthead" href="/"><img alt="The Pennsylvania State University" src="../assets/img/psu_shield.svg" /></a>
+                <span data-responsive-toggle="responsive-menu" data-hide-for="medium" class="menu-button">
+      <button class="menu-icon" type="button" data-toggle></button>
+    </span>
+            </div>
+            {% include top-menu.html %}
+        </div>
+    </div>
+    <!-- END TOP BAR -->
+    <div class="row quote-row">
+        <div class="small-12 columns">
+            <h1 class="secondary-page-heading">{{ page.title }}</h1>
+        </div>
+        <div class="small-12 columns">
+            <h2 class="quote">Design your path</h2>
+        </div>
+    </div>
+</div>
+<!-- END HEADER -->
+<!-- PATHWAYS -->
+<div class="row head-spacing foot-spacing">
+    <div class="small-12 columns">
+        <div class="row">
+            <div class="small-12 medium-6 columns">
+                <h3 class="callout-heading">Bachelor of Design in Digital Multimedia Design</h3>
+                <p>Credits: 120<br>
+                Official Program Site: <a href="http://www.worldcampus.psu.edu/degrees-and-certificates/penn-state-online-digital-multimedia-design-bachelors-degree/overview">World Campus <i class="fa fa-external-link" aria-hidden="true"></i></a>
+                </p>
+            </div>
+            <div class="small-12 medium-6 columns">
+                <p>The Digital Multimedia Design program links courses from the <span class="highlight orange">College of Arts and Architecture</span>, the <span class="highlight green">College of Communications</span>, and the <span class="highlight blue">College of Information Sciences &amp; Technology</span> at Penn State University. This entirely online interdisciplinary program introduces students to universal design concepts for creative problem solving. Learners will apply contemporary design methods to engage real-world issues in expressive and technical projects. Students will produce a digital portfolio over the duration of their studies and create a self-directed thesis project in their capstone semester.</p>
+                <p>Digital media generally refers to the storage and transmission of information in increasingly varied multimedia digital formats and devices, and within a changing array of modes of communication. Design is a means by which we respond to change in a purposeful way by focusing on issues, problems and opportunities and developing plans for taking innovative and strategic actions. Hence digital design shapes and impacts the physical and virtual spaces people inhabit.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="small-12 small-centered large-10 columns center head-spacing">
+                {% include core-svg.html %}
+                <h3 class="callout-heading black">Core Courses</h3>
+                <p>Core courses are Prescribed (required) courses and aim to provide a wide base of knowledge from which to start exploring pathways. Two courses are contributed from each college, and three "spine" courses (DMD 100, 300, 400) link larger curricular ideas together.</p>
+                <p>Access to a camera, camera accessories, and an Adobe CC student subscription is required to complete COMM 215 coursework. Rental equipment available through the College of Communications.</p>
+                {% include programcore.html %}
+             </div>
+            <div class="small-12 small-centered large-10 columns center">
+                {% include pathways-svg.html %}
+                <h3 class="callout-heading black">Pathways</h3>
+                <p>Pathways are suggested Supporting, Additional, and General Education course clusters. They are meant as a starting point for your academic careers and will help guide a conversation with a DMD Program advisor.</p>
+                    {% include pathwaycourse.html %}
+            </div>
+        </div>
+    </div>
+</div>
