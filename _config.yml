@@ -15,6 +15,10 @@ markdown:           kramdown
 #Syntax Highlighter
 #highlighter:        pygments
 
+## CUSTOM VARS
+gems:
+  - jekyll-maps
+
 # Permalinks
 permalink:          pretty
 
@@ -34,9 +38,6 @@ exclude:            [
                       'Gemfile.lock',
                     ]
 
-## CUSTOM VARS
-
-
 #ga_id:             ##-########-###
 site_name:          Community Connections
 site_description :  
@@ -53,12 +54,18 @@ sass:
   sass_dir:          ./assets/stylesheets
   style:            :compressed
 
+#Maps
+maps:
+  google:
+    api_key: AIzaSyAWjCqRdmbNBCgAUE3dzRsblVld-5fMrio
+
 # Collections 
 collections:
   courses:
   pathways:
   faculty:
   sorts:
+  events:
  #  _   _     __      _______ _____       _______ _____ ____  _   _ 
  # | \ | |   /\ \    / /_   _/ ____|   /w\|__   __|_   _/ __ \| \ | |
  # |  \| |  /  \ \  / /  | || |  __   /  \  | |    | || |  | |  \| |
