@@ -1,17 +1,25 @@
 # _data/places.yaml
-- title: "Test 1"
-  url: "http://127.0.0.1:9002/community-connections/success/"
+- title: "THON"
+  url: "http://127.0.0.1:9002/community-connections/thon/"
+  description: "A 46 Hour Dance Marathon For the Kids"
+  start_time: "4/27/17 10:05 AM"
+  end_time: "4/29/17 11:30 AM"
   location:
     latitude: 40.796840
     longitude: -77.861168
-- title: "Test 2"
-  url: "http://127.0.0.1:9002/community-connections/success/"
+- title: "Hearts 4 Homeless"
+  url: "http://127.0.0.1:9002/community-connections/hearts/"
+  description: "Helping Homeless People in our Community"
+  start_time: 4/24/17 10:00 AM
+  end_time: 4/24/17 10:05 AM
   location:
     latitude: 40.787467
     longitude: -77.867560
-- title: "Test 3"
-  url: "http://127.0.0.1:9002/community-connections/success/"
+- title: "Jump Rope for Heart"
+  url: "http://127.0.0.1:9002/community-connections/jumprope/"
+  description: "A Jumproping Marathon for Heart Disease"
+  start_time: "4/29/17 9:00 AM"
+  end_time: "4/29/17 11:30 AM"
   location:
     latitude: 40.790101
     longitude: -77.870393
-

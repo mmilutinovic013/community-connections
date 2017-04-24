@@ -1,5 +1,9 @@
-Bread For People,4/25/17 10:00 AM,4/25/17 11:30 AM,Info,
-Hearts 4 Homeless Due,4/21/17 10:00 AM,4/21/17 10:05 AM,Warning,
-THON ,4/27/17 10:05 AM,4/27/17 11:30 AM,Info,
-Ham 4 Hungry,4/21/17 10:00 AM,4/21/17 10:05 AM,Warning,
-Jump Rope for Heart ,4/27/17 10:05 AM,4/27/17 11:30 AM,Info,
+Title ,Start , End , Type, url,
+Hearts 4 Homeless Due,4/24/17 10:00 AM,4/24/17 10:05 AM,Warning, http://127.0.0.1:9002/community-connections/hearts/
+THON ,4/27/17 10:05 AM,4/29/17 11:30 AM,Info, http://127.0.0.1:9002/community-connections/thon/
+Jump Rope for Heart ,4/29/17 9:00 AM,4/29/17 11:30 AM,Info, http://127.0.0.1:9002/community-connections/jumprope/
+Bread For People,5/25/17 10:00 AM,5/25/17 11:30 AM,Info, 
+Hearts 4 Homeless Due,5/21/17 10:00 AM,5/21/17 10:05 AM,Warning,
+THON ,5/27/17 10:05 AM,5/29/17 11:30 AM,Info,
+Ham 4 Hungry,5/22/17 10:00 AM,5/22/17 10:05 AM,Warning,
+Jump Rope for Heart ,5/29/17 9:00 AM,5/29/17 11:30 AM,Info,
